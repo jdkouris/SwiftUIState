@@ -39,7 +39,7 @@ struct CounterButton: View {
             totalTapCount += 1
         }, label: {
             Circle()
-                .frame(width: 100, height: 200)
+                .frame(width: 100, height: 100)
                 .foregroundColor(color)
                 .overlay(
                     Text("\(counter)")
